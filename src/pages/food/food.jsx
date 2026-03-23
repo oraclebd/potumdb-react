@@ -12,7 +12,7 @@ function FoodCard(i) {
       },
       (err) => {
         console.error("Could not copy text: ", err);
-      }
+      },
     );
   }
 
@@ -70,7 +70,7 @@ function Food() {
 
       <main className="flex flex-col items-center justify-center p-6.5 ">
         <div className=" gap-4 flex flex-col">
-          <h1 className="text-3xl font-bold">Food buff codes</h1>
+          <h1 className="text-5xl font-bold">Food buff codes</h1>
           <h2 className="text-base font-semibold">
             Click below to jump to a specific buff ⬇️
           </h2>
@@ -114,6 +114,12 @@ function Food() {
             </a>
             <a
               className="rounded-full bg-[#ffd752] px-4 py-2 font-bold text-black"
+              href="#int"
+            >
+              INT
+            </a>
+            <a
+              className="rounded-full bg-[#ffd752] px-4 py-2 font-bold text-black"
               href="#pres"
             >
               Physical Resistance
@@ -126,7 +132,7 @@ function Food() {
             </a>
           </div>
 
-          <h2 className="text-lg font-bold" id="ampr">
+          <h2 className="text-3xl font-bold" id="ampr">
             AMPR
           </h2>
 
@@ -134,9 +140,16 @@ function Food() {
             <FoodCard owner="S A R A" lv="10" code="4040404" />
             <FoodCard owner="GODragon" lv="10" code="7257777" />
             <FoodCard owner="AlvinXxX" lv="10" code="4233333" />
+            <FoodCard owner="평온한날" lv="10" code="1010017" />
+            <FoodCard owner="冷Hiro☆" lv="10" code="1010596" />
+            <FoodCard owner="白最中" lv="10" code="3020777" />
+            <FoodCard owner="『 K E R R Y 』" lv="10" code="3201003" />
+            <FoodCard owner="黒澤タイア" lv="10" code="5236969" />
+            <FoodCard owner="Amaymon" lv="10" code="1094548" />
+            <FoodCard owner="maruna" lv="10" code="4261111" />
           </div>
 
-          <h2 className="text-lg font-bold" id="cr">
+          <h2 className="text-3xl font-bold" id="cr">
             Critical Rate
           </h2>
 
@@ -144,19 +157,31 @@ function Food() {
             <FoodCard owner="Player20" lv="10" code="7162029" />
             <FoodCard owner="- Kanna -" lv="10" code="5119105" />
             <FoodCard owner="#SAM#" lv="10" code="2022020" />
+            <FoodCard owner="Hati Hervor" lv="10" code="1037777" />
+            <FoodCard owner="Lentan" lv="10" code="1100000" />
+            <FoodCard owner="らんな" lv="10" code="1181140" />
+            <FoodCard owner="NoiR" lv="10" code="3149696" />
+            <FoodCard owner="- Kanna -" lv="10" code="5119105" />
+            <FoodCard owner="わん　•　にやー" lv="10" code="3010777" />
           </div>
 
-          <h2 className="text-lg font-bold" id="mp">
+          <h2 className="text-3xl font-bold" id="mp">
             MP
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-            <FoodCard owner="Aka Shiro" lv="10" code="1027777" />
             <FoodCard owner="Yamaha" lv="10" code="4010090" />
             <FoodCard owner="yuxieyoko" lv="10" code="3017676" />
+            <FoodCard owner="冷Hiro☆" lv="10" code="1010596" />
+            <FoodCard owner="Salmonella" lv="10" code="1010216" />
+            <FoodCard owner="朋@" lv="10" code="6053838" />
+            <FoodCard owner="Paracetamol" lv="10" code="2020101" />
+            <FoodCard owner="ORCA29" lv="10" code="7150029" />
+            <FoodCard owner="moongladelark" lv="10" code="51110000" />
+            <FoodCard owner="KAYUN0" lv="10" code="6061616" />
           </div>
 
-          <h2 className="text-lg font-bold" id="watk">
+          <h2 className="text-3xl font-bold" id="watk">
             Weapon ATK
           </h2>
 
@@ -164,9 +189,10 @@ function Food() {
             <FoodCard owner="YusagiKurumi" lv="10" code="1067777" />
             <FoodCard owner="夜トyato☆" lv="10" code="1010810" />
             <FoodCard owner="『 G a p a p a 』" lv="10" code="6010024" />
+            <FoodCard owner="わん　•　にやー" lv="10" code="3010777" />
           </div>
 
-          <h2 className="text-lg font-bold" id="str">
+          <h2 className="text-3xl font-bold" id="str">
             STR
           </h2>
 
@@ -176,7 +202,7 @@ function Food() {
             <FoodCard owner="くアジヤ" lv="10" code="1010968" />
           </div>
 
-          <h2 className="text-lg font-bold" id="dex">
+          <h2 className="text-3xl font-bold" id="dex">
             DEX
           </h2>
 
@@ -186,7 +212,15 @@ function Food() {
             <FoodCard owner="· H20 ·" lv="10" code="1010058" />
           </div>
 
-          <h2 className="text-lg font-bold" id="pres">
+          <h2 className="text-3xl font-bold" id="int">
+            INT
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+            <FoodCard owner="Yamaha" lv="10" code="4010090" />
+          </div>
+
+          <h2 className="text-3xl font-bold" id="pres">
             Physical Resistance
           </h2>
 
@@ -196,7 +230,7 @@ function Food() {
             <FoodCard owner="てんげん " lv="10" code="1020001" />
           </div>
 
-          <h2 className="text-lg font-bold" id="mres">
+          <h2 className="text-3xl font-bold" id="mres">
             Magic Resistance
           </h2>
 
