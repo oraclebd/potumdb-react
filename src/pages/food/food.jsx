@@ -96,6 +96,12 @@ function Food() {
             </a>
             <a
               className="rounded-full bg-[#ffd752] px-4 py-2 font-bold text-black"
+              href="#hp"
+            >
+              HP
+            </a>
+            <a
+              className="rounded-full bg-[#ffd752] px-4 py-2 font-bold text-black"
               href="#watk"
             >
               Weapon ATK
@@ -179,6 +185,16 @@ function Food() {
             <FoodCard owner="ORCA29" lv="10" code="7150029" />
             <FoodCard owner="moongladelark" lv="10" code="51110000" />
             <FoodCard owner="KAYUN0" lv="10" code="6061616" />
+          </div>
+
+          <h2 className="text-3xl font-bold" id="hp">
+            HP
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
+            <FoodCard owner="らいむ03" lv="10" code="1010356" />
+            <FoodCard owner="mashilo" lv="10" code="4262222" />
+            <FoodCard owner="シャルム" lv="10" code="54154629" />
           </div>
 
           <h2 className="text-3xl font-bold" id="watk">
