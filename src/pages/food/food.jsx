@@ -143,8 +143,6 @@ function Food() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-            <FoodCard owner="S A R A" lv="10" code="4040404" />
-            <FoodCard owner="GODragon" lv="10" code="7257777" />
             <FoodCard owner="AlvinXxX" lv="10" code="4233333" />
             <FoodCard owner="평온한날" lv="10" code="1010017" />
             <FoodCard owner="冷Hiro☆" lv="10" code="1010596" />
@@ -153,6 +151,8 @@ function Food() {
             <FoodCard owner="黒澤タイア" lv="10" code="5236969" />
             <FoodCard owner="Amaymon" lv="10" code="1094548" />
             <FoodCard owner="maruna" lv="10" code="4261111" />
+            <FoodCard owner="S A R A" lv="10" code="4040404" />
+            <FoodCard owner="GODragon" lv="10" code="7257777" />
           </div>
 
           <h2 className="text-3xl font-bold" id="cr">
