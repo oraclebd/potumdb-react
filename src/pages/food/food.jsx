@@ -148,10 +148,10 @@ function Food() {
             <FoodCard owner="冷Hiro☆" lv="10" code="1010596" />
             <FoodCard owner="白最中" lv="10" code="3020777" />
             <FoodCard owner="『 K E R R Y 』" lv="10" code="3201003" />
-            <FoodCard owner="黒澤タイア" lv="10" code="5236969" />
-            <FoodCard owner="Amaymon" lv="10" code="1094548" />
+            {/* <FoodCard owner="黒澤タイア" lv="10" code="5236969" /> */}
+            {/* <FoodCard owner="Amaymon" lv="10" code="1094548" /> */}
             <FoodCard owner="maruna" lv="10" code="4261111" />
-            <FoodCard owner="S A R A" lv="10" code="4040404" />
+            {/* <FoodCard owner="S A R A" lv="10" code="4040404" /> */}
             <FoodCard owner="GODragon" lv="10" code="7257777" />
           </div>
 
@@ -160,7 +160,7 @@ function Food() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-            <FoodCard owner="Player20" lv="10" code="7162029" />
+            {/* <FoodCard owner="Player20" lv="10" code="7162029" /> */}
             <FoodCard owner="- Kanna -" lv="10" code="5119105" />
             <FoodCard owner="#SAM#" lv="10" code="2022020" />
             <FoodCard owner="Hati Hervor" lv="10" code="1037777" />
@@ -176,14 +176,15 @@ function Food() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-            <FoodCard owner="Yamaha" lv="10" code="4010090" />
-            <FoodCard owner="yuxieyoko" lv="10" code="3017676" />
+            {/* <FoodCard owner="Yamaha" lv="10" code="4010090" /> */}
+            {/* <FoodCard owner="yuxieyoko" lv="10" code="3017676" /> */}
             <FoodCard owner="冷Hiro☆" lv="10" code="1010596" />
+            <FoodCard owner="らいむ03" lv="10" code="1010356" />
             <FoodCard owner="Salmonella" lv="10" code="1010216" />
             <FoodCard owner="朋@" lv="10" code="6053838" />
-            <FoodCard owner="Paracetamol" lv="10" code="2020101" />
+            {/* <FoodCard owner="Paracetamol" lv="10" code="2020101" /> */}
             <FoodCard owner="ORCA29" lv="10" code="7150029" />
-            <FoodCard owner="moongladelark" lv="10" code="51110000" />
+            {/* <FoodCard owner="moongladelark" lv="10" code="51110000" /> */}
             <FoodCard owner="KAYUN0" lv="10" code="6061616" />
           </div>
 
@@ -193,6 +194,7 @@ function Food() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
             <FoodCard owner="らいむ03" lv="10" code="1010356" />
+
             <FoodCard owner="mashilo" lv="10" code="4262222" />
             <FoodCard owner="シャルム" lv="10" code="54154629" />
           </div>
@@ -234,6 +236,7 @@ function Food() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
             <FoodCard owner="Yamaha" lv="10" code="4010090" />
+            <FoodCard owner="ramenEso" lv="10" code="6010701" />
           </div>
 
           <h2 className="text-3xl font-bold" id="pres">
