@@ -255,7 +255,7 @@ function Food() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
-            <FoodCard owner="Niacin [B3]" lv="10" code="2020505" />
+            {/* <FoodCard owner="Niacin [B3]" lv="10" code="2020505" /> */}
             <FoodCard owner="Kiyanh" lv="10" code="1111575" />
             <FoodCard owner="nanako♪" lv="10" code="6190007" />
           </div>
