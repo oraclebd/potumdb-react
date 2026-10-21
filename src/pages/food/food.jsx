@@ -161,6 +161,7 @@ function Food() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:gap-4">
             {/* <FoodCard owner="Player20" lv="10" code="7162029" /> */}
+            <FoodCard owner="Letnan" lv="10" code="1100000" />
             <FoodCard owner="- Kanna -" lv="10" code="5119105" />
             <FoodCard owner="#SAM#" lv="10" code="2022020" />
             <FoodCard owner="Hati Hervor" lv="10" code="1037777" />
